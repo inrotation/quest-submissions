@@ -8,9 +8,10 @@
 
 # Chapter 1, Day 2:
 The Pillars of Cadence programming language (& their usefulness!)
-	1. Safety and Security - self-explanatory; should be the hallmark of any smart contract language worth its muster!  
-	2. Clarity - code that is simple for developers to express intent and readers to comprehend serve to ensure safety 
-	3. Approachability -Similarities in syntax to other programming languages ensures a low barrier to entry for interested software developers	
-	4. Developer Experience - clarity in error messages will help developers debug sans frustration. 
-	5. Resource Oriented Programming
+
+1. Safety and Security - self-explanatory; should be the hallmark of any smart contract language worth its muster!  
+2. Clarity - code that is simple for developers to express intent and readers to comprehend serve to ensure safety 
+3. Approachability - Similarities in syntax to other programming languages ensures a low barrier to entry for interested software developers.	
+4. Developer Experience - clarity in error messages will help developers debug sans frustration. 
+5. Resource Oriented Programming
 
