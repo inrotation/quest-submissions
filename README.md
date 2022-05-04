@@ -16,8 +16,11 @@ The Pillars of Cadence programming language (& their usefulness!)
 5. Resource Oriented Programming
 
 # Chapter 2, Day 1:
-Quest 1:
+
+## Quest 1:
+
 <img width="627" alt="Quest 1" src="https://user-images.githubusercontent.com/26890946/166808408-1db102cd-32e7-41db-a63f-0dcc588d8d85.png">
 
-Quest 2:
+## Quest 2:
+
 <img width="877" alt="Quest 2" src="https://user-images.githubusercontent.com/26890946/166808450-e5328858-0b0d-4121-87de-ae08473aead2.png">
