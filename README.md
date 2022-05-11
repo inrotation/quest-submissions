@@ -34,8 +34,10 @@ The Pillars of Cadence programming language (& their usefulness!)
 2. In the _prepare_ phase of the transaction **AuthAccount** is meant to access the data in one’s account. 
 3. In the _Prepare_ phase of a transaction, we are accessing data in someone’s account, while in the _Execute_ phase we are changing some data
 4.
-![Screen Shot 2022-05-09 at 8 51 06 PM](https://user-images.githubusercontent.com/26890946/167539921-6cf62698-1c32-452e-bf77-1ef5b6f8af65.png)
-![Screen Shot 2022-05-09 at 8 54 15 PM](https://user-images.githubusercontent.com/26890946/167546508-96bda557-6a98-4e95-b27f-8b98fe45583c.png)
-![Screen Shot 2022-05-09 at 10 21 55 PM](https://user-images.githubusercontent.com/26890946/167548088-2dd3e90e-17c1-4b55-ac27-af104fa120da.png)
+![1](https://user-images.githubusercontent.com/26890946/167965356-4757d2d3-ec9a-4b3a-adc1-83948353de4d.png)
+![2](https://user-images.githubusercontent.com/26890946/167965368-21261a46-9a11-4183-8a9b-d15e20be94c4.png)
+![3](https://user-images.githubusercontent.com/26890946/167965394-b59751c5-42d1-4529-8f40-0c946b254ed0.png)
+![4](https://user-images.githubusercontent.com/26890946/167965403-79851499-8334-4a56-bb45-8721aaed2862.png)
+
 
 
