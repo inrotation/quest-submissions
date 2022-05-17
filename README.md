@@ -40,4 +40,19 @@ The Pillars of Cadence programming language (& their usefulness!)
 ![4](https://user-images.githubusercontent.com/26890946/167965403-79851499-8334-4a56-bb45-8721aaed2862.png)
 
 
+# Chapter 2, Day 3:
+
+## Quests
+
+1.
+<img width="572" alt="2 3, q1" src="https://user-images.githubusercontent.com/26890946/168696923-5e58dd49-32c5-4110-9070-79578fcfb5a1.png">
+
+2.
+<img width="939" alt="2 3, q2" src="https://user-images.githubusercontent.com/26890946/168696701-a9ef8a04-ab0c-491a-b80f-4c5b488b4e04.png">
+
+
+3. The force-unwrap operator "!" unwraps the optional type, allowing us to find out if it is/isn't nil
+
+4. The error in the image means that an optional has been returned when attempting to access the value of address 0x03, meaning it may be nil! The way to fix this is to use the force unwrap operator [!] when returning 0x03:
+<img width="671" alt="2 3, q4" src="https://user-images.githubusercontent.com/26890946/168696787-36e8081b-7655-49e1-a5d6-87fb1ecea8bb.png">
 
