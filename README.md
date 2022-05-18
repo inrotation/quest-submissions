@@ -56,3 +56,52 @@ The Pillars of Cadence programming language (& their usefulness!)
 4. The error in the image means that an optional has been returned when attempting to access the value of address 0x03, meaning it may be nil! The way to fix this is to use the force unwrap operator [!] when returning 0x03:
 <img width="671" alt="2 3, q4" src="https://user-images.githubusercontent.com/26890946/168696787-36e8081b-7655-49e1-a5d6-87fb1ecea8bb.png">
 
+
+
+# Chapter 2, Day 4:
+
+## Quests
+
+1 & 2. 
+<img width="705" alt="2 4 Q1-2" src="https://user-images.githubusercontent.com/26890946/168997032-de2e550e-a79a-4b5d-8e68-10d7c68cf628.png">
+
+3.
+<img width="972" alt="2 4 Q3" src="https://user-images.githubusercontent.com/26890946/168997058-30106c98-f91b-482d-9359-4d4abb96a423.png">
+
+4.
+<img width="1303" alt="2 4 Q4" src="https://user-images.githubusercontent.com/26890946/168997067-eed719db-127a-4fc5-82a2-3fd392f5f2ce.png">
+
+
+
+# Chapter 3, Day 1:
+
+## Quests
+
+1. While similar to Structs in that they are both "containers of data", Resources cannot be overwritten or copied, and thus, are much more secure. 
+
+2. We may find it preferable to use Resources over Structs when, for example, we need to make a high value transaction (or, commonly in this space: send an NFT). This is an instance in which security would be considered paramount, and Resources are extremely difficult to lose. 
+
+3. The "Create" keyword is used inside a contract to make a new Resource.
+
+4. Resources can only ever be made inside of Contracts; never in Scripts or Transactions. 
+
+5. The type of resource displayed in the example is a String.
+
+6. 4 Errors in the provided code:
+	1. @ symbol (required to missing next to Jacob where: 
+			  
+        pub fun createJacob(): Jacob
+
+	2. there are two errors where:
+
+			let myJacob = Jacob() 
+
+    a.) we create a new "Jacob" type by using the create keyword 
+    b.) the equal sign should be replaced by the move operator ( <- ), which must be used to move resources around
+    
+  3. where:
+       
+    return myJacob
+ 
+   we are missing a move operator ( <- ) between return and myJacob.
+
