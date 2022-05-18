@@ -88,16 +88,19 @@ The Pillars of Cadence programming language (& their usefulness!)
 5. The type of resource displayed in the example is a String.
 
 6. 4 Errors in the provided code:
-	1. @ symbol (required to missing next to Jacob where: 
+	1. The @ symbol is missing next to Jacob, where: 
 			  
-        pub fun createJacob(): Jacob
+        		pub fun createJacob(): Jacob
 
 	2. there are two errors where:
 
 			let myJacob = Jacob() 
 
-    a.) we create a new "Jacob" type by using the create keyword 
-    b.) the equal sign should be replaced by the move operator ( <- ), which must be used to move resources around
+    a.) we create a new "Jacob" type by using the create keyword; it is missing here. 
+    
+    
+    b.) the equal sign should be replaced by the move operator (<-), which must be used to move resources around
+    
     
   3. where:
        
