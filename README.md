@@ -130,10 +130,24 @@ The Pillars of Cadence programming language (& their usefulness!)
 	
 
 # Chapter 3, Day 2:
-
 ## Quests
 
 <img width="439" alt="Q3D2" src="https://user-images.githubusercontent.com/26890946/170593292-bdbaa592-bb67-4dd9-b006-ee0e1c00d365.png">
 
+# Chapter 3, Day 3
+## Quests
+
+1.
+
+<img width="482" alt="Q3D3, 1" src="https://user-images.githubusercontent.com/26890946/170596560-b0195fc4-b0df-4b89-bb2d-79350d68e4fe.png">
+
+2.
+
+<img width="446" alt="Q3D3, 2" src="https://user-images.githubusercontent.com/26890946/170596652-9c8479f4-eb89-4ccc-86d9-cf858b03a325.png">
+
+3. In Cadence, References can be especially useful when there's a desire to glean information from or interact with some data (usually Structs or Resources) without the laborious task of being forced to hold/move onto said data. 
 
 
+
+# Chapter 3, Day 4
+## Quests
