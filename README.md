@@ -76,14 +76,19 @@ The Pillars of Cadence programming language (& their usefulness!)
 
 ## Quests
 
-1 & 2. 
-<img width="705" alt="2 4 Q1-2" src="https://user-images.githubusercontent.com/26890946/168997032-de2e550e-a79a-4b5d-8e68-10d7c68cf628.png">
+1-3.
 
-3.
-<img width="972" alt="2 4 Q3" src="https://user-images.githubusercontent.com/26890946/168997058-30106c98-f91b-482d-9359-4d4abb96a423.png">
+<img width="786" alt="Q2 4, 1-3" src="https://user-images.githubusercontent.com/26890946/170580297-662279b7-d918-4c5c-bbcb-408757cac495.png">
+
 
 4.
-<img width="1303" alt="2 4 Q4" src="https://user-images.githubusercontent.com/26890946/168997067-eed719db-127a-4fc5-82a2-3fd392f5f2ce.png">
+
+<img width="730" alt="Q2 4, 4" src="https://user-images.githubusercontent.com/26890946/170581009-1d6faa24-46ab-4eb9-b457-db159ccca47f.png">
+
+
+5.
+
+<img width="1114" alt="Q2 4, 5" src="https://user-images.githubusercontent.com/26890946/170581749-729f58b8-3144-4693-84f9-c61052a33484.png">
 
 
 
