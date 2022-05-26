@@ -127,4 +127,13 @@ The Pillars of Cadence programming language (& their usefulness!)
        	return myJacob
  	
 	We are missing a move operator ( <- ) between return and myJacob.
+	
+
+# Chapter 3, Day 2:
+
+## Quests
+
+<img width="439" alt="Q3D2" src="https://user-images.githubusercontent.com/26890946/170593292-bdbaa592-bb67-4dd9-b006-ee0e1c00d365.png">
+
+
 
