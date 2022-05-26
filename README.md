@@ -98,7 +98,7 @@ The Pillars of Cadence programming language (& their usefulness!)
 
 1. While similar to Structs in that they are both "containers of data", Resources cannot be overwritten or copied, and thus, are much more secure. 
 
-2. We may find it preferable to use Resources over Structs when, for example, we need to make a high value transaction (or, commonly in this space: send an NFT). This is an instance in which security would be considered paramount, and Resources are extremely difficult to lose. 
+2. We may find it preferable to use Resources over Structs when, for example, we need to make a high value transaction (example: send an NFT). This is an instance in which security would be considered paramount, and Resources are extremely difficult to lose. 
 
 3. The "Create" keyword is used inside a contract to make a new Resource.
 
@@ -106,7 +106,7 @@ The Pillars of Cadence programming language (& their usefulness!)
 
 5. The type of resource displayed in the example is a String.
 
-6. 4 Errors in the provided code:
+6. The 4 Errors in the provided code:
 	1. The @ symbol is missing next to Jacob, where: 
 			  
         		pub fun createJacob(): Jacob
