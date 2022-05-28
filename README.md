@@ -131,6 +131,7 @@ The Pillars of Cadence programming language (& their usefulness!)
 
 # Chapter 3, Day 2:
 ## Quests
+1.
 
 <img width="439" alt="Q3D2" src="https://user-images.githubusercontent.com/26890946/170593292-bdbaa592-bb67-4dd9-b006-ee0e1c00d365.png">
 
@@ -151,3 +152,22 @@ The Pillars of Cadence programming language (& their usefulness!)
 
 # Chapter 3, Day 4
 ## Quests
+
+1.  Interfaces specify a set of requirements for something to implement and can allow for only certain things to be exposed to people.
+2. 
+	
+	Example 1
+
+	<img width="447" alt="Q3D4, 2 1" src="https://user-images.githubusercontent.com/26890946/170795566-2d8729fc-80ea-471e-974a-84b7dac9de38.png">
+
+	Example 2
+	
+	<img width="756" alt="Q3D4, 2 2" src="https://user-images.githubusercontent.com/26890946/170795583-c14bba3a-44ae-47b4-a8b5-7d98cd5d7311.png">
+
+3.
+
+
+# Chapter 3, Day 5
+## Quests
+
+
