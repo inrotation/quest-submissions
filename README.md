@@ -162,9 +162,13 @@ The Pillars of Cadence programming language (& their usefulness!)
 
 	Example 2
 	
-	<img width="756" alt="Q3D4, 2 2" src="https://user-images.githubusercontent.com/26890946/170795583-c14bba3a-44ae-47b4-a8b5-7d98cd5d7311.png">
+	<img width="756" alt="Q3D4, 2 2" src="https://user-images.githubusercontent.com/26890946/170795583-c14bba3a-44ae-47b4-a8b5-7d98cd5d7311.png">  
 
-3.
+  
+  
+3. Code fixes included with comments: 
+	<img width="550" alt="Q3D4, 3" src="https://user-images.githubusercontent.com/26890946/170895281-0d05df6c-1efd-4fde-aacf-0b1eacfaf53a.png">
+
 
 
 # Chapter 3, Day 5
