@@ -236,7 +236,7 @@ privateFunc - cannot be called
 
 4. We couldn't save something to our account storage inside of a script because we read (and not change) data within a Script
 
-5. As only the Account holder has authorization, you would not be able to to save something to my account.
+5. As only the account holder has authorization, you would not be able to to save something to my account.
 
 6. 
 	Contract:
