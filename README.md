@@ -170,17 +170,64 @@ The Pillars of Cadence programming language (& their usefulness!)
 # Chapter 3, Day 5
 ## Quests
 
+***Area 1***
+
+a) 	read & write  
+b) 	read & write       
+c) 	read & write      
+d) 	read & write     
+
+publicFunc - can be called  
+contractFunc - can be called  
+privateFunc - can be called  
+
+
+***Area 2***
+
+a) 	read & write  
+b) 	read, no write   
+c) 	read, no write  
+d) 	no read, no write 
+
+publicFunc - can be called  
+contractFunc - can be called  
+privateFunc - cannot be called 
+
+
+***Area 3***
+
+a) 	read & write  
+b) 	read & write  
+c) 	read, no write  
+d) 	no read, no write  
+
+publicFunc - can be called  
+contractFunc - can be called  
+privateFunc - cannot be called  
+
+***Area 4***
+
+a) 	read & write  
+b) 	read, no write   
+c) 	no read, no write     
+d) 	no read, no write    
+
+publicFunc - can be called  
+contractFunc - cannot be called  
+privateFunc - cannot be called  
+
 # Chapter 4, Day 1
 ## Quests
 
-1 	Contract Code and Account Storage (where data is stored) reside in every Flow account. 
-2. 	The following paths reside in the Account Storage portion of Flow accounts; however, they differ in that:
+1. Contract Code and Account Storage (where data is stored) reside in every Flow account.  
+
+2. The following paths reside in the Account Storage portion of Flow accounts; however, they differ in that:
 	/storage/ - is only accessible by the account owner; all data resides here
 	/public/  - data placed here is available to everybody
 	/private/ - is only accessible to account owner & people (s)he gives access to 
 
-3.  	The .save() function is used to save something to Account Storage
-	The .load() function is used in order to remove data 
+3.  The .save() function is used to save something to Account Storage  
+	The .load() function is used in order to remove data  
 	The .borrow() function is used so as to look at something within an account
 
 4. We couldn't save something to our account storage inside of a script because we read (and not change) data within a Script
@@ -189,13 +236,14 @@ The Pillars of Cadence programming language (& their usefulness!)
 
 6. 
 	Contract:
+	
 	<img width="404" alt="Q4D1, 6 contract" src="https://user-images.githubusercontent.com/26890946/170889384-5960894e-68fd-4b7e-b9d2-dc6c30be73e0.png">
 
 	Saves Resource:
 	<img width="621" alt="Q4D1, 6 Save" src="https://user-images.githubusercontent.com/26890946/170891276-79c0562c-799e-4bef-bb08-4106a0b5b4e9.png">
 
 	
-	Loads Resource:
+	Loads/Destroys Resource:
 	<img width="815" alt="Q4D1, 6 load" src="https://user-images.githubusercontent.com/26890946/170891280-acee3638-73b4-44b4-9bee-14779063704d.png">
 
 	Borrows Resource:
