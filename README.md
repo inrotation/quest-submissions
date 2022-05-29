@@ -253,8 +253,18 @@ privateFunc - cannot be called
 
 # Chapter 4, Day 2
 ## Quests
+
+1. .link() is used to link our resource from the /storage/ path to the /public/ path, thus making it publically accessible  
+
+2. We can use resource interfaces to only expose certain things to the /public/ path by using discretion in making only those specific things in the /storage/ path publically available.  
+
+3. 
+
+
 # Chapter 4, Day 3
 ## Quests
+
+
 # Chapter 4, Day 4
 ## Quests
 # Chapter 5, Day 1
