@@ -32,7 +32,8 @@ The Pillars of Cadence programming language (& their usefulness!)
 
 1. We wouldn’t call _changeGreeting_ in a script because scripts are meant to view data, and _changeGreeting_ is meant to modify data (more specifically, here: our _greeting_ variable)
 2. In the _prepare_ phase of the transaction **AuthAccount** is meant to access the data in one’s account. 
-3. In the _Prepare_ phase of a transaction, we are accessing data in someone’s account, while in the _Execute_ phase we are changing some data
+3. In the _Prepare_ phase of a transaction, we are accessing data in someone’s account, while in the _Execute_ phase we are changing some data![Q4D2, d](https://user-images.githubusercontent.com/26890946/170925065-4a5745dc-c247-4d15-a84a-000b16156173.png)
+
 4.
 
 4.1
@@ -263,17 +264,12 @@ privateFunc - cannot be called
 2. We can use resource interfaces to only expose certain things to the /public/ path by using discretion in making only those specific things in the /storage/ path publically available.  
 
 3. 
+![Q4D2, a](https://user-images.githubusercontent.com/26890946/170922109-67994a0d-b82d-4cb9-81ae-233415c5f829.png)
+
+![Q4D2, b](https://user-images.githubusercontent.com/26890946/170922143-9b019e7d-a561-4987-af55-f0c5a258e690.png)
+
+![Q4D2, c](https://user-images.githubusercontent.com/26890946/170923085-21deb932-1848-4b35-b238-410cc929f49f.png)
+
+![Q4D2, d](https://user-images.githubusercontent.com/26890946/170925098-790c98ff-3553-44ac-99e1-536716c4bd2c.png)
 
 
-# Chapter 4, Day 3
-## Quests
-
-
-# Chapter 4, Day 4
-## Quests
-# Chapter 5, Day 1
-## Quests
-# Chapter 5, Day 2
-## Quests
-# Chapter 5, Day 3
-## Quests
