@@ -273,3 +273,9 @@ privateFunc - cannot be called
 ![Q4D2, d](https://user-images.githubusercontent.com/26890946/170925098-790c98ff-3553-44ac-99e1-536716c4bd2c.png)
 
 
+# Chapter 4, Day 3
+## Quests
+
+1. We added a Collection to this contract in order to fix the problem of storing more than one nft to our account without specifying a new storage path every time. Additionally, it allows for more than only the account owner to store an NFT in his/her storage account. 
+2. The Cadence language requires a destroy function to be implemented so as to delete  "nested resources" (resources inside of resources).
+3.
