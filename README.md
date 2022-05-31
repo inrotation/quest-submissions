@@ -276,6 +276,19 @@ privateFunc - cannot be called
 # Chapter 4, Day 3
 ## Quests
 
-1. We added a Collection to this contract in order to fix the problem of storing more than one nft to our account without specifying a new storage path every time. Additionally, it allows for more than only the account owner to store an NFT in his/her storage account. 
+1. We added a Collection to this contract in order to fix the problem of storing more than one NFT to our account without having to specify a new storage path every time. Additionally, it allows for more than only the account owner to store an NFT in his/her storage account. 
 2. The Cadence language requires a destroy function to be implemented so as to delete  "nested resources" (resources inside of resources).
-3.
+3. Something to consider adding is some Resource that will restrict mint access to holders. Also, a Borrow function inside the Collection would allow us to read the NFT without needing to remove it. 
+
+
+# Chapter 4, Day 4
+## Quests
+
+<img width="776" alt="Q4D4, 1" src="https://user-images.githubusercontent.com/26890946/171302282-3f2b8829-64d9-4288-bbc1-29eea7d0a394.png">
+<img width="625" alt="Q4D4, 2" src="https://user-images.githubusercontent.com/26890946/171302290-f77cb786-acf4-4e64-94cd-8b5ea4d7f4cd.png">
+
+
+# Chapter 5, Day 1
+## Quests
+
+	
