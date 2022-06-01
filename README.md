@@ -32,7 +32,8 @@ The Pillars of Cadence programming language (& their usefulness!)
 
 1. We wouldn’t call _changeGreeting_ in a script because scripts are meant to view data, and _changeGreeting_ is meant to modify data (more specifically, here: our _greeting_ variable)
 2. In the _prepare_ phase of the transaction **AuthAccount** is meant to access the data in one’s account. 
-3. In the _Prepare_ phase of a transaction, we are accessing data in someone’s account, while in the _Execute_ phase we are changing some data![Q4D2, d](https://user-images.githubusercontent.com/26890946/170925065-4a5745dc-c247-4d15-a84a-000b16156173.png)
+3. In the _Prepare_ phase of a transaction, we are accessing data in someone’s account, while in the _Execute_ phase we are changing some data  
+  ![Q4D2, d](https://user-images.githubusercontent.com/26890946/170925065-4a5745dc-c247-4d15-a84a-000b16156173.png)
 
 4.
 
@@ -167,7 +168,8 @@ The Pillars of Cadence programming language (& their usefulness!)
 
   
   
-3. Code fixes included with comments: 
+3. Code fixes included with comments:  
+
 	<img width="550" alt="Q3D4, 3" src="https://user-images.githubusercontent.com/26890946/170895281-0d05df6c-1efd-4fde-aacf-0b1eacfaf53a.png">
 
 
@@ -244,7 +246,8 @@ privateFunc - cannot be called
 	
 	<img width="404" alt="Q4D1, 6 contract" src="https://user-images.githubusercontent.com/26890946/170889384-5960894e-68fd-4b7e-b9d2-dc6c30be73e0.png">
 
-	Saves Resource:
+	Saves Resource:  
+	
 	<img width="621" alt="Q4D1, 6 Save" src="https://user-images.githubusercontent.com/26890946/170891276-79c0562c-799e-4bef-bb08-4106a0b5b4e9.png">
 
 	
