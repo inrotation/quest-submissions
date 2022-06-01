@@ -290,8 +290,78 @@ privateFunc - cannot be called
 <img width="776" alt="Q4D4, 1" src="https://user-images.githubusercontent.com/26890946/171302282-3f2b8829-64d9-4288-bbc1-29eea7d0a394.png">
 <img width="625" alt="Q4D4, 2" src="https://user-images.githubusercontent.com/26890946/171302290-f77cb786-acf4-4e64-94cd-8b5ea4d7f4cd.png">
 
-
 # Chapter 5, Day 1
 ## Quests
 
+1. Events are how we can inform the public that a thing has occurred (for example, that an NFT has been minted) without being forced to repeatedly check the contract (which would obviously be an extremely inefficient method for clients!)  
+2. & 3.  
+<img width="407" alt="Q5D1, 2-3" src="https://user-images.githubusercontent.com/26890946/171513590-0ebc65ca-37f1-439a-ab35-89241989c83d.png">
+
+
+
+4.  
+
+		  // TODO
+		  // Tell me whether or not this function will log the name.
+		  // name: 'Jacob'
+		  pub fun numberOne(name: String) {
+		    pre {
+		      name.length == 5: "This name is not cool enough."
+		    }
+		    log(name)
+		  }
+
+Answer: Yes. Jacob has five letters, thus it will log. 
+
+
+		  // TODO
+		  // Tell me whether or not this function will return a value.
+		  // name: 'Jacob'
+		  pub fun numberTwo(name: String): String {
+		    pre {
+		      name.length >= 0: "You must input a valid name."
+		    }
+		    post {
+		      result == "Jacob Tucker"
+		    }
+		    return name.concat(" Tucker")
+		  }
+		  
+Answer: Yes, as "Jacob" is greater/equal to 0 in length
+
+
+	  pub resource TestResource {
+	    pub var number: Int
+
+	    // TODO
+	    // Tell me whether or not this function will log the updated number.
+	    // Also, tell me the value of `self.number` after it's run.
+	    pub fun numberThree(): Int {
+	      post {
+		before(self.number) == result + 1
+	      }
+	      self.number = self.number + 1
+	      return self.number
+	    }
+	    init() {
+	      self.number = 0
+	    }
+	  }
+	}
 	
+Answer: This will not log the updated number. "self.number" will return a value of 0. 
+	
+
+# Chapter 5, Day 2
+## Quests
+
+1. Standards when dealing with contract interfaces are beneficial (and one might argue necessary) so that clients dealing with multiple contracts may have a singular way of interacting with them.  
+2. My favourite food is Pizza!  
+3. 
+
+
+# Chapter 5, Day 3
+## Quests
+
+1. 
+2. 
