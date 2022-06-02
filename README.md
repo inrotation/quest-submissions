@@ -357,7 +357,13 @@ Answer: This will not log the updated number. "self.number" will return a value 
 
 1. Standards when dealing with contract interfaces are beneficial (and one might argue necessary) so that clients dealing with multiple contracts may have a singular way of interacting with them.  
 2. My favourite food is Pizza!  
-3. 
+3. fix #1. must import ITest contract interface within implementing contract  
+
+   fix #2. again, within implementing contract: must implement using the : {contract interface name} syntax.  
+   
+   fix #3. again, within implementing contract: "Stuff" resource must implement reource interface "IStuff" inside contract resource correctly  
+   
+
 
 
 # Chapter 5, Day 3
