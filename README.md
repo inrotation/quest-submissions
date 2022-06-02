@@ -363,5 +363,7 @@ Answer: This will not log the updated number. "self.number" will return a value 
 # Chapter 5, Day 3
 ## Quests
 
-1. 
-2. 
+1. "Force casting" with "as!" downcasts the generic "@NonFungibleToken.NFT" type to the more specific "@NFT" type. This is useful because without doing so, anyone can deposit their own NFT type into our collection since any NFT on Flow fit the "@NonFungibleToken.NFT" type. 
+2. The "Auth" reference is an "authorized reference" that is required when using references (along with the "force cast" operator "as!") to downcast a generic type to a more specific type. 
+3.
+
