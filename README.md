@@ -372,4 +372,17 @@ Answer: This will not log the updated number. "self.number" will return a value 
 1. "Force casting" with "as!" downcasts the generic "@NonFungibleToken.NFT" type to the more specific "@NFT" type. This is useful because without doing so, anyone can deposit their own NFT type into our collection since any NFT on Flow fit the "@NonFungibleToken.NFT" type. 
 2. The "Auth" reference is an "authorized reference" that is required when using references (along with the "force cast" operator "as!") to downcast a generic type to a more specific type. 
 3.
+![Cryptoops1](https://user-images.githubusercontent.com/26890946/171792100-a17fa9fe-044e-4ccb-9075-1066f72f1863.png)
+![Cryptopoops2](https://user-images.githubusercontent.com/26890946/171792155-ba18fe34-8e5f-41d9-859c-65118392f44d.png)
+
+![Q5D3, Create Collection](https://user-images.githubusercontent.com/26890946/171792165-eebe16df-07a6-49c2-9406-47cf06da991f.png)
+
+![Q5D3, Minted](https://user-images.githubusercontent.com/26890946/171792181-028ef8b2-5ba2-4072-adf5-b409fa18216f.png)
+
+![Q5D3, Script](https://user-images.githubusercontent.com/26890946/171792188-fc39789a-cd5c-457e-be53-66b8669a49a9.png)
+
+
+
+
+
 
